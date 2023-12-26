@@ -14,7 +14,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <p>Aqui vai ser a navbar</p>
+        </header>
+        {children}
+        <footer>
+          <p>Aqui vai ser o footer</p>
+        </footer>
+        </body>
     </html>
   )
 }
